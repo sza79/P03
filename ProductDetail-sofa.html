@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>ProductDetail</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/productDetail-sofa.css">
+  <link rel="stylesheet" href="css/grid.css">
+
+
+
+</head>
+
+
+<body>
+  <div class="kclogo">
+    <a href="Homepage.html" id="need0">
+      <img alt="XD" class="logoImage" src="img/KC_logo.png" width="90" height="90">
+    </a>
+  </div>
+
+  <div class="showButton"><a onclick="myFunction()"><img alt="XD" class="DropArrowImage" src="img/menu3.png"></a></div>
+
+<div id="container">
+  <div class="container">
+
+          <div class="item1"><strong><a href="Homepage.html">HOME</a></strong></div>
+
+          <div class="dropdown">
+            <strong><a class="item2, dropbtn" href="ProductListing-all.html" onclick="myFunction()" >SHOPPING</a></strong>
+                   <div id="myDropdown" class="dropdown-content">
+                     <a href="ProductListing-chairs.html">CHAIR</a>
+                     <a href="ProductListing-sofa.html">SOFA</a>
+                     <a href="ProductListing-sofa.html">BED</a>
+                   </div>
+                 </div>
+
+
+           <div class="item3"><strong><a href="contactInfo.html">CONTACT INFO</a></strong></div>
+
+          <div class="item4"><strong><a href="hours.html">HOURS & LOCATION</a></strong></div>
+
+          <div class="item5"><strong><a href="news.html">NEWS</a></strong></div>
+
+        </div>
+
+                       </div>
+
+<div class="Images">
+  <!-- <a href="#"> -->
+  <div class="BigImg" id="bigImg">
+    <!-- <img src="img/chair_1.jpg"></img> -->
+  </div>
+<!-- </a> -->
+
+  <div class="productList">
+    <a class="product1" onclick="return switchFull(1)">
+    <div>
+      </div>
+    </a>
+
+<a href="#"  class="product2" onclick="return switchFull(2)">
+      <div>
+        </div>
+      </a>
+
+      <a href="#" class="product3" onclick="return switchFull(3)">
+        <div>
+          </div>
+        </a>
+
+        </div>
+
+      </div>
+
+
+<script type="text/javascript">
+function switchFull(what) {
+  if (what == 1) {
+    //processs OMG  sooo many wrong ones,  over 20 i ve tried that are not documented
+    //please  teach us javascript before even telling us to do a full website
+    // document.getElementById('bigImg').src = newImg.src;
+    // document.getElementById('bigImg').style.backgroundImage = "url("../img/product3.jpg")";
+    // document.getElementById("bigImg").style.backgroundImage = "url(../img/chair_1.jpg)";
+      // document.getElementById("bigImg").style.backgroundImage = "/img/kc_logo.png";
+      // document.getElementById("bigImg").SetAttribute("style", "background-image: url("/img/product1.jpg");");
+      document.getElementById("bigImg").style.backgroundImage = "url(img/sofa3.jpg)";
+  } else if (what == 2) {
+    document.getElementById("bigImg").style.backgroundImage = "url(img/sofa3_pic2.jpg)";
+  } else if (what == 3) {
+    document.getElementById("bigImg").style.backgroundImage = "url(img/sofa3_pic3.jpg)";
+  }
+	return false;
+}
+</script>
+
+
+
+  <div class="content">
+    <h1>Godot Two Seater</h1>
+    <a href="#"><p>Godot is a comfortable and generous sofa series comprising 2- and 3-seater sofas as well as an armchair. </p></a>
+    <h2>$5180 CAD</h2>
+    <p class="description"> The inner "spaces" of the sofa are designed in sizes allowing for a comfortable seating position without limiting the freedom of movement and the freedom to stretch your legs. The soft shapes of the upholstery are deliciously inviting and, also, constitute a marked contrast to the sofa's exterior of more simple and geometrical forms. The interior belongs to the occupant and the exterior belongs to the room.</p>
+    <h3>DIMENSIONS</h3>
+    <p>H: 70 cm, L: 162 cm, D: 82,5 cm</p>
+    <h3>DESIGNER</h3>
+    <p>Iskos-Berlin</p>
+    <h3>MANUFACTURER</h3>
+    <p>MENU</p>
+    <h3>COLOR</h3>
+    <select class="colorOptions">
+      <option value="Black">Black</option>
+      <option value="Grey">Grey</option>
+    </select>
+    <br>
+
+
+    <button class="buttonBuy" onclick="window.location.href='PaymentInfo.html'" type="button">Buy</button>
+</div>
+
+
+<!--Content-->
+
+<!--End Of Content-->
+
+<!--footer bar-->
+<div id="footer">
+
+  <div id="footerlinkleft">
+    <a href="Styleguide.HTML">StyleGuide</a><br>
+    <a href="citation.html">Citation</a><br>
+    <a href="https://github.com/kenny388/IAT339-P02.git">GitRepository</a><br>
+    <a href="contactInfo.html">Careers</a><br>
+  </div>
+
+  <div id="footerlinkright">
+    <a href="contactInfo.html">Contact Us</a><br>
+    <a href="hours.html">Hours</a><br>
+    <a href="news.html">News</a><br>
+    <a href="Styleguide.HTML">Copyright</a>
+  </div>
+
+
+
+
+</div>
+<script src="dropbtn.js"></script>
+<script src="showButton.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,349 @@
+body {
+background-color: #F7EEE9;
+}
+
+.furnitureTitle {
+position: relative;
+clear: left;
+/* float: left; */
+top: 8em;
+margin-bottom: 6em;
+margin-left: 5%;
+}
+
+.dropbtn {
+	border-bottom: 2px solid #A8A79F;
+	padding-bottom: 6px;
+}
+
+
+.productList{
+float: left;
+	/* padding: 50px; */
+	position: relative;
+	top: 3em;
+	/* margin-left: 22%; */
+  display: flex;
+	flex-direction: flow;
+	/* margin-top: 22em; */
+  margin-left:4.7%;
+  /* border-style: solid; */
+	flex-wrap: wrap;
+	width: 90%;
+  justify-content:space-between;
+	  /* justify-content: flex-start; */
+		/* align-self: stretch; */
+}
+
+.productList2{
+	float: left;
+		/* padding: 50px; */
+		position: relative;
+		top: 3em;
+		/* margin-left: 22%; */
+		display: flex;
+		flex-direction: flow;
+		/* margin-top: 22em; */
+		margin-left:4.7%;
+		/* border-style: solid; */
+		flex-wrap: wrap;
+		width: 90%;
+		justify-content:space-between;
+			/* justify-content: flex-start; */
+			/* align-self: stretch; */
+	}
+
+
+
+	.product1 {
+
+	  background-image: url("../img/product1.jpg");
+	  background-size: cover;
+	  background-position:center;
+	  background-color: grey;
+	  /* padding:20em; */
+	  flex-shrink: 1; /* default 1 */
+		top:12em;
+		/* left:0%; */
+		width:30%;
+		min-width: 13em;
+		height:30em;
+		line-height: 1.2em;
+		font-size: 0.9em;
+		/* z-index:5; */
+		/* padding:1.9em; */
+		/* border: none 0px solid; */
+		color: black;
+		/* text-align:center; */
+		/* background-color:#404040; */
+		/* flex-grow: 1; */
+	  border-style: solid;
+		border-width: 0.15em;
+
+		margin-bottom: 5em;
+	}
+
+	.product2{
+		display: block;
+	  background-image: url("../img/product2.jpg");
+	  background-size: cover;
+	  background-position:center;
+
+	  background-color: grey;
+	  flex-shrink: 1; /* default 1 */
+		top:12em;
+		/* left:0%; */
+		width:30%;
+		min-width: 13em;
+		height:30em;
+		line-height: 1.2em;
+		/* z-index:5; */
+		/* padding:1.9em; */
+		border: none 0px solid;
+		color: black;
+		/* text-align:center; */
+		/* background-color:#404040; */
+		/* flex-grow: 1; */
+	  border-style: solid;
+		border-width: 0.15em;
+
+		margin-bottom: 5em;
+		font-size: 0.9em;
+
+	}
+
+	.product3{
+	  background-image: url("../img/product3.jpg");
+	  background-size: cover;
+	  background-position:center;
+	  background-color: grey;
+	  flex-shrink: 1; /* default 1 */
+		top:12em;
+		/* left:0%; */
+		width:30%;
+		min-width: 13em;
+		height:30em;
+		line-height: 1.2em;
+		/* z-index:5; */
+		/* padding:1.9em; */
+		border: none 0px solid;
+		color: black;
+		/* text-align:center; */
+		/* background-color:#404040; */
+
+	  border-style: solid;
+		border-width: 0.15em;
+
+		margin-bottom: 3em;
+		font-size: 0.9em;
+
+	}
+
+.product4 {
+
+  background-image: url("../img/sofa1.jpg");
+  background-size: cover;
+  background-position:center;
+  background-color: grey;
+  /* padding:20em; */
+
+  flex-shrink: 1; /* default 1 */
+	top:12em;
+	/* left:0%; */
+	width:30%;
+	min-width: 13em;
+	height:30em;
+	line-height: 1.2em;
+	font-size: 0.9em;
+	/* z-index:5; */
+	/* padding:1.9em; */
+	/* border: none 0px solid; */
+	color: black;
+	/* text-align:center; */
+	/* background-color:#404040; */
+	/* flex-grow: 1; */
+  border-style: solid;
+	border-width: 0.15em;
+
+	margin-bottom: 10em;
+}
+
+.product5{
+	display: block;
+  background-image: url("../img/sofa3.jpg");
+  background-size: cover;
+  background-position:center;
+
+  background-color: grey;
+  flex-shrink: 1; /* default 1 */
+	top:12em;
+	/* left:0%; */
+	width:30%;
+	min-width: 13em;
+	height:30em;
+	line-height: 1.2em;
+	/* z-index:5; */
+	/* padding:1.9em; */
+	border: none 0px solid;
+	color: black;
+	/* text-align:center; */
+	/* background-color:#404040; */
+	/* flex-grow: 1; */
+  border-style: solid;
+	border-width: 0.15em;
+
+	margin-bottom: 10em;
+	font-size: 0.9em;
+
+}
+
+.product6{
+  background-image: url("../img/sofa4.jpg");
+  background-size: cover;
+  background-position:center;
+  background-color: grey;
+  flex-shrink: 1; /* default 1 */
+	top:12em;
+	/* left:0%; */
+	width:30%;
+	min-width: 13em;
+	height:30em;
+	line-height: 1.2em;
+	/* z-index:5; */
+	/* padding:1.9em; */
+	border: none 0px solid;
+	color: black;
+	/* text-align:center; */
+	/* background-color:#404040; */
+
+  border-style: solid;
+	border-width: 0.15em;
+
+	margin-bottom: 10em;
+	font-size: 0.9em;
+
+}
+
+.product7{
+  background-image: url("../img/sofa2.jpg");
+  background-size: cover;
+  background-position:center;
+  background-color: grey;
+  flex-shrink: 1; /* default 1 */
+	top:12em;
+	/* left:0%; */
+	width:30%;
+	min-width: 13em;
+	height:30em;
+	line-height: 1.2em;
+	/* z-index:5; */
+	/* padding:1.9em; */
+	border: none 0px solid;
+	color: black;
+	/* text-align:center; */
+	/* background-color:#404040; */
+
+  border-style: solid;
+	border-width: 0.15em;
+
+	margin-bottom: 10em;
+	font-size: 0.9em;
+
+}
+
+
+
+.chair1Button{
+  margin-top: 20.5em;
+}
+
+.chair2Button{
+  margin-top: 20.5em;
+}
+.chair3Button{
+  margin-top: 20.5em;
+}
+
+#footer {
+	top:27em;
+}
+
+.dropbtn {
+	border-bottom: 2px solid #A8A79F;
+	padding-bottom: 6px;
+}
+
+@media (max-width: 1110px) {
+	.productList{
+		flex-flow: column;
+	}
+	.product1 {
+		width: 100%;
+		margin-bottom: 11em;
+	}
+	.product2 {
+		width: 100%;
+		margin-bottom: 11em;
+	}
+	.product3 {
+		width: 100%;
+		margin-bottom: 11em;
+	}
+	.product4 {
+		width: 100%;
+		margin-bottom: 11em;
+	}
+
+	.product5 {
+		width: 100%;
+		margin-bottom: 11em;
+	}
+
+	.product6 {
+		width: 100%;
+		margin-bottom: 11em;
+	}
+
+	.product7 {
+		width: 100%;
+		margin-bottom: 11em;
+	}
+	#footer{
+		/* top: 10em; */
+	}
+}
+
+
+@media (max-width: 500px) {
+		.product1 {
+			height: 20em;
+		}
+		.chair1Button{
+			margin-top: 14em;
+		}
+		.product2 {
+			height: 20em;
+		}
+		.chair2Button{
+			margin-top: 14em;
+		}
+		.product3 {
+			height: 20em;
+		}
+		.chair3Button{
+			margin-top: 14em;
+		}
+		.product4 {
+			height: 20em;
+		}
+		.product5 {
+			height: 20em;
+		}
+		.product6 {
+			height: 20em;
+		}
+		.product7 {
+			height: 20em;
+		}
+
+}
