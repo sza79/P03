@@ -37,7 +37,6 @@ body{
   background-position:center;
   background-color: grey;
   /* padding:20em; */
-
   flex-shrink: 1; /* default 1 */
 	top:12em;
 	/* left:0%; */
@@ -106,6 +105,11 @@ body{
 
 }
 
+.contentBlock2 {
+	margin-top: 5em;
+
+}
+
 .clearLeft {
 	clear: left;
 }
@@ -162,8 +166,18 @@ margin-bottom: 2em;
 
 .newsImage {
 /* height: 180px; */
-margin-right: 2em;
+margin-right: 2%;
 margin-bottom: 1em;
+width: 50%;
+}
+
+.newsImage2 {
+/* height: 180px; */
+margin-left: 2%;
+margin-bottom: 1em;
+float:right;
+width: 48%;
+height: auto;
 }
 
 .instagramLogo {
@@ -190,6 +204,12 @@ margin-bottom: 1em;
 .description{
   /* max-width: 40em; */
 	font-size: 1.1em;
+}
+
+.description2{
+  /* max-width: 40em; */
+	font-size: 1.1em;
+	width: 50%;
 }
 
 .para {
