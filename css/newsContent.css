@@ -102,6 +102,15 @@ body{
 
 }
 
+.contentBlock {
+
+}
+
+.clearLeft {
+	clear: left;
+}
+
+
 .NewsHeadBar {
 	position: relative;
 	float: left;
@@ -140,7 +149,7 @@ body{
 	top: 3em;
 
 }
-/* 
+/*
 .newsBlock {
 display: flex;
  align-items: center;
