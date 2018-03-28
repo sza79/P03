@@ -49,7 +49,7 @@ float: right;
 .item1 a:hover {
 	text-decoration-line: underline;
   text-decoration-style: wavy;
-  text-decoration-color: #ffdb4d;
+  text-decoration-color: black;
 }
 
 /* .dropbtn:hover {
@@ -60,18 +60,18 @@ float: right;
 .item3 a:hover {
 	text-decoration-line: underline;
   text-decoration-style: wavy;
-  text-decoration-color: #ffdb4d;
+  text-decoration-color: black;
 }
 
 .item4 a:hover {
 	text-decoration-line: underline;
 	text-decoration-style: wavy;
-	text-decoration-color: #ffdb4d;
+	text-decoration-color: black;
 }
 .item5 a:hover {
 	text-decoration-line: underline;
   text-decoration-style: wavy;
-  text-decoration-color: #ffdb4d;
+  text-decoration-color: black;
 }
 
 .item1 {
