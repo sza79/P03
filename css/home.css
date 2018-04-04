@@ -25,6 +25,22 @@ body{
 
 }
 
+.dropArrow {
+	display: inline-block;
+	margin-top: 2em;
+	width: 100%;
+	align-items: center;
+	text-align:center;
+}
+
+.dropArrow img {
+	margin: auto;
+	text-align:center;
+	width: 5%;
+	height: auto;
+	opacity: 0.3;
+}
+
 .GalleryTitle {
 	display: inline-block;
 	/* background: grey; */
