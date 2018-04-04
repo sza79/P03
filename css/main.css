@@ -47,8 +47,9 @@ float: right;
 }
 
 .item1 a:hover {
-	text-decoration-line: underline;
-  text-decoration-style: wavy;
+	/* text-decoration-line: underline; */
+	border-bottom: 2px solid #999999;
+  /* text-decoration-style: wavy; */
   text-decoration-color: black;
 }
 
@@ -58,19 +59,22 @@ float: right;
 } */
 
 .item3 a:hover {
-	text-decoration-line: underline;
-  text-decoration-style: wavy;
+	/* text-decoration-line: underline; */
+  /* text-decoration-style: wavy; */
+	border-bottom: 2px solid #999999;
   text-decoration-color: black;
 }
 
 .item4 a:hover {
-	text-decoration-line: underline;
-	text-decoration-style: wavy;
+	/* text-decoration-line: underline; */
+	/* text-decoration-style: wavy; */
+	border-bottom: 2px solid #999999;
 	text-decoration-color: black;
 }
 .item5 a:hover {
-	text-decoration-line: underline;
-  text-decoration-style: wavy;
+	/* text-decoration-line: underline; */
+  /* text-decoration-style: wavy; */
+	border-bottom: 2px solid #999999;
   text-decoration-color: black;
 }
 

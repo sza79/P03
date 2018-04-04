@@ -131,18 +131,28 @@ body{
 }
 
 .newsBlock {
+	position: relative;
 display: flex;
  align-items: center;
 height: 20em;
 
-margin-bottom: 2em;
+margin-bottom: 5em;
 
 }
 
 .newsImage {
-height: 180px;
-margin: 2em;
+	/* display: inline-block; */
 
+height: 100%;
+/* margin: 2em; */
+/* width: 50%; */
+width: 40%;
+
+}
+
+.newsImage img {
+	height: 100%;
+	width: auto;
 }
 
 .newsContent {
@@ -190,8 +200,8 @@ background: white;
 }
 
 .item5 a{
-	border-bottom: 2px solid #A8A79F;
-	padding-bottom: 6px;
+	border-bottom: 2px solid #999999;
+	/* padding-bottom: 6px; */
 }
 
 @media (max-width: 1920px) {
@@ -213,6 +223,7 @@ height: 15em;
 }
 }
 
+
 @media (max-width: 1707px) {
 .content {
 	left: 15%;
@@ -233,6 +244,49 @@ height: 20em;
 }
 }
 
+@media (max-width: 1099px) {
+	.newsContent {
+		clear: left;
+		float: left;
+	}
+
+	.hidden {
+		display: none;
+		width: 200%;
+	}
+
+	.content {
+		flex-flow: row;
+		left:5%;
+		width: 90%;
+		flex-wrap: wrap;
+	}
+	.newsBlock {
+		flex-flow: column;
+		width: 100%;
+		height: 25em;
+		margin-bottom: 15em;
+		/* margin-right: 3%; */
+		 /* align-items: left; */
+	}
+	.newsImage {
+
+		margin: 1em;
+		margin-bottom: 0em;
+	}
+	.newsContent {
+		margin-top: 0em;
+	}
+	.hiddenContent {
+		display:none;
+	}
+.newsBlock {
+/* height: 20em; */
+}
+}
+
+
+
 @media (max-width: 989px) {
 .content {
 	left: 5%;
@@ -244,6 +298,11 @@ height: 20em;
 }
 
 @media (max-width: 800px) {
+
+	.namepic img {
+		width: 100%;
+		height: auto;
+	}
 	.content {
 		flex-flow: row;
 		left:5%;
@@ -260,6 +319,11 @@ height: 20em;
 	.newsImage {
 		margin: 1em;
 		margin-bottom: 0em;
+	}
+
+	.newsImage img {
+		width: 100%;
+		height: auto;
 	}
 	.newsContent {
 		margin-top: 0em;
