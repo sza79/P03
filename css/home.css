@@ -25,6 +25,32 @@ body{
 
 }
 
+.row {
+
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-left: 5%;
+  /* padding: 0 0.25em; */
+}
+
+/* Create four equal columns that sits next to each other */
+
+.column {
+	margin-top: 2em;
+	position: relative;
+  flex: 25%;
+  max-width: 25%;
+  /* padding: 0 0.25em; */
+}
+
+.column img {
+  /* margin-top: 8px; */
+  vertical-align: middle;
+  width: 95%;
+  margin-bottom: 1em;
+}
+
 .content {
 	position: relative;
 	background-color: rgba(158, 146, 143, 0.15);
