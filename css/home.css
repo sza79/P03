@@ -307,3 +307,34 @@ top: 80em;
 .p02description h1{
 	font-size: 3em;
 }
+
+@media screen and (max-width: 1000px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 800px) {
+.namepic {
+	display: inline-block;
+	width: 90%;
+	max-width: 100%;
+	height: auto;
+	margin-right: 5%;
+}
+
+	.namepic img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
