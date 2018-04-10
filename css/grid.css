@@ -148,7 +148,7 @@ body{
 	background-image: none;
 }
 
-.item1 {
+/* .item1 {
 	text-align: right;
 }
 .dropdown {
@@ -162,8 +162,8 @@ body{
 }
 .item5 {
 	text-align: right;
-}
-}
+} */
+/* } */
 
 @media (max-width: 750px) {
 	/* .showButton {

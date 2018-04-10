@@ -99,6 +99,10 @@ float: right;
 	text-decoration-style: none;
 
 }
+
+.item1 a {
+	text-align: center;
+}
 .item2 {
   flex-shrink: 2; /* default 1 */
 
