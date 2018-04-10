@@ -347,3 +347,23 @@ top: 80em;
     max-width: 100%;
   }
 }
+
+@keyframes Fly {
+	0% {
+		transform: translate(-100px);
+	}
+	100%{
+		transform: translate(0px);
+	}
+}
+
+
+.logo {
+	animation-name: Fly;
+	animation-duration: 1.5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	/* animation-direction: alternate; */
+	/* animation-iteration-count: infinite; */
+		animation-timing-function: ease-out;
+}

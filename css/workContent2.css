@@ -337,3 +337,34 @@ width: 90%;
 		font-size: 0.8em;
 	}
 }
+
+@keyframes Shake {
+	0% {
+		transform: rotate(0deg);
+	}
+	20%{
+		transform: rotate(-10deg);
+	}
+	40%{
+		transform: rotate(12deg);
+	}
+	60%{
+		transform: rotate(-14deg);
+	}
+	80%{
+		transform: rotate(8deg);
+	}
+	100%{
+		transform: rotate(0deg);
+	}
+}
+
+.logo:hover {
+	animation-name: Shake;
+	animation-duration: 0.5s;
+	animation-iteration-count: 1;
+	/* animation-fill-mode: forwards; */
+	animation-timing-function: ease-in-out;
+	/* animation-direction: alternate; */
+	/* animation-iteration-count: infinite; */
+}
