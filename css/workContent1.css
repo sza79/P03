@@ -192,8 +192,14 @@ margin-bottom: 1em;
 	font-size: 1.1em;
 }
 
-.para {
+.para h3{
 /* margin: 1em; */
+margin-top: 0em;
+}
+
+.para2 {
+/* margin: 1em; */
+/* margin-top: 8em; */
 
 }
 
@@ -297,6 +303,13 @@ height: 20em;
 		margin: 1em;
 		/* margin-bottom: 0em; */
 	}
+
+	.newsImage2 {
+		/* margin: 1em; */
+		margin-right: 2em;
+		margin-bottom: 1em;
+	}
+
 	.newsContent {
 		margin-top: 0em;
 	}
