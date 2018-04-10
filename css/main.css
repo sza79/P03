@@ -69,12 +69,11 @@ float: right;
   text-decoration-color: black;
 }
 
-.item4 a:hover {
-	/* text-decoration-line: underline; */
-	/* text-decoration-style: wavy; */
+/* .item4 a:hover {
+
 	text-decoration: line-through;
 	text-decoration-color: black;
-}
+} */
 .item5 a:hover {
 	/* text-decoration-line: underline; */
   /* text-decoration-style: wavy; */

@@ -31,8 +31,7 @@ left: 23%;
 }
 
 .item3 a{
-	border-bottom: 2px solid #A8A79F;
-	/* padding-bottom: 6px; */
+text-decoration: line-through;
 }
 
 @media (max-width: 989px) {
