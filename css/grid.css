@@ -48,19 +48,19 @@ margin-left: 20%;
 
 
 @media (max-width: 989px) {
-.myDropdown {
+/* .myDropdown {
 	display: none;
-}
+} */
 
-.showButton {
+/* .showButton {
 	display:block;
-}
+} */
 
 #container {
-		display: none;
+		/* display: none; */
 }
 
-.container {
+/* .container {
 
 	width: 100%;
 	height: 20em;
@@ -72,9 +72,9 @@ margin-left: 20%;
 
 	margin-right: 5%;
 
-}
+} */
 
-.item1 {
+/* .item1 {
 		padding-right: 5%;
 		background-color: rgba(0, 0, 0, 0.10);
 	min-width: 17em;
@@ -120,19 +120,19 @@ clear: left;
 width: 13%;
 
 /* display: inline-block; */
-margin-right: 0%;
+/* margin-right: 0%;
 margin-left: 5%;
-}
+} */
 
-.logoImage {
+/* .logoImage {
 width: 100%;
-height: auto;
+height: auto; */
 /* display: border-box; */
 
-margin-right: 0%;
+/* margin-right: 0%; */
 
 
-/* margin-right: auto; */
+/* margin-right: auto; */ */
 }
 
 #footerlinkleft {
@@ -166,10 +166,10 @@ body{
 }
 
 @media (max-width: 750px) {
-	.showButton {
+	/* .showButton {
 		width: 10%;
 		margin-top: 3em;
-	}
+	} */
 }
 
 @media (max-width: 600px) {
@@ -188,10 +188,10 @@ body{
 	width: 20%;
 }
 
-.showButton {
+/* .showButton {
 	width: 15%;
 	margin-top: 2em;
-}
+} */
 
 .logoImage {
 	width: 100%;

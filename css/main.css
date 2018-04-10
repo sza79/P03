@@ -388,10 +388,9 @@ hr {
 		    display: block;
 				border: 3px, solid, white;
 				/* border: solid; */
-		} */
 @media (min-width: 990px) {
 		/* Change color of dropdown links on hover */
-
+/*
 		.dropdown-content a:hover {background-color: #E3DBD3}
 
 		.dropdown:hover .dropdown-content {
@@ -399,11 +398,11 @@ hr {
 			}
 
 		/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-		.show {display:block;}
+		/* .show {display:block;} */
 	}
 
 @media (max-width: 989px) {
-	.showButton {
+	/* .showButton {
 		display: block;
-	}
+	} */
 }
