@@ -7,14 +7,25 @@ body{
 	background-position: top right;
 }
 
+.contactpic {
+	display: block;
+	position: relative;
+	margin-top: 24em;
+	margin-left: 4.5%;
+	max-width: 40%;
+	float: left;
+	margin-right: 55.5%;
+
+}
+
 .content {
 display: block;
 position: relative;
 float: left;
 max-width: 30%;
 height: 40em;
-top: 5em;
-left: 23%;
+margin-top: 2em;
+margin-left: 5%;
 }
 
 .description{
