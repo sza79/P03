@@ -9,124 +9,31 @@ body{
 }
 
 
-.productList{
-
-			/* padding: 50px; */
-			position: absolute;
-			/* margin-left: 22%; */
-		  display: flex;
-			flex-direction: flow;
-			margin-top: 49em;
-		  margin-left:4.7%;
-		  /* border-style: solid; */
-			flex-wrap: wrap;
-			width: 30%;
-		  justify-content:space-between;
-			  /* justify-content: flex-start; */
-				/* align-self: stretch; */
-		}
-
-.product1 {
-  background-image: url("../img/product1.jpg");
-  background-size: cover;
-  background-position:center;
-  background-color: grey;
-  /* padding:20em; */
-
-  flex-shrink: 1; /* default 1 */
-	top:12em;
-	/* left:0%; */
-	width:30%;
-	min-width: 5em;
-	height:8em;
-	line-height: 5em;
-	/* z-index:5; */
-	/* padding:1.9em; */
-	border: none 0px solid;
-	color: black;
-	text-align:center;
-	/* background-color:#404040; */
-	/* flex-grow: 1; */
-  border-style: solid;
-}
-
-.product2{
-  background-image: url("../img/product2.jpg");
-  background-size: cover;
-  background-position:center;
-
-  background-color: grey;
-  flex-shrink: 1; /* default 1 */
-	top:12em;
-	/* left:0%; */
-	width:30%;
-	min-width: 5em;
-	height:8em;
-	line-height: 5em;
-	/* z-index:5; */
-	/* padding:1.9em; */
-	border: none 0px solid;
-	color: black;
-	text-align:center;
-	/* background-color:#404040; */
-	/* flex-grow: 1; */
-  border-style: solid;
-
-}
-
-.product3{
-  background-image: url("../img/product3.jpg");
-  background-size: cover;
-  background-position:center;
-  background-color: grey;
-  flex-shrink: 1; /* default 1 */
-	top:12em;
-	/* left:0%; */
-	width:30%;
-	min-width: 5em;
-	height:8em;
-	line-height: 5em;
-	/* z-index:5; */
-	/* padding:1.9em; */
-	border: none 0px solid;
-	color: black;
-	text-align:center;
-	/* background-color:#404040; */
-
-  border-style: solid;
-
-}
-
-.NewsHeader {
+.number{
+  font-size: 6em;
 	position: relative;
+	display: block;
+	position: relative;
+	margin-top: 1em;
+	margin-left: 5%;
+	max-width: 40%;
 	float: left;
-	/* background-color: rgba(158, 146, 143, 0.15); */
-	/* color: rgb(230, 230, 230); */
-	color: black;
-	text-align: left;
-	display: inline-block;
-	/* padding: 1em 1em; */
-	width: 90%;
-	/* margin-top: 10em; */
 
+}
 
-	margin-top:3em;
-	margin-left: 10%;
-
-
+.number02{
+margin-top: 3em;
 }
 
 .content {
 	display: flex;
 	flex-wrap: wrap;
-	 flex-direction: column;
+	flex-direction: column;
 	position: relative;
 	float: left;
-	/* max-width: 30%; */
-	/* height: 40em; */
-	/* top: 1em; */
 	left: 15%;
 	top: 1em;
+
 
 }
 
