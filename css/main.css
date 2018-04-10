@@ -51,7 +51,8 @@ float: right;
 
 .item1 a:hover {
 	/* text-decoration-line: underline; */
-	border-bottom: 2px solid #999999;
+	/* border-bottom: 2px solid #999999; */
+	text-decoration: line-through;
   /* text-decoration-style: wavy; */
   text-decoration-color: black;
 }
@@ -64,14 +65,14 @@ float: right;
 .item3 a:hover {
 	/* text-decoration-line: underline; */
   /* text-decoration-style: wavy; */
-	border-bottom: 2px solid #999999;
+	text-decoration: line-through;
   text-decoration-color: black;
 }
 
 .item4 a:hover {
 	/* text-decoration-line: underline; */
 	/* text-decoration-style: wavy; */
-	border-bottom: 2px solid #999999;
+	text-decoration: line-through;
 	text-decoration-color: black;
 }
 .item5 a:hover {
@@ -218,14 +219,14 @@ a:active, a:hover {
 .logo {
 	/* position:absolute; */
 	position: relative;
-	top:0px;
-	left:10.5%;
+	margin-top:8px;
+	margin-left:4.5%;
 	z-index:2;
 	float: left;
 
 }
 
-.kclogo{
+.logoImage{
 	margin-top: 0.8%;
 	position: relative;
 	float: left;

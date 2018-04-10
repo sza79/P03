@@ -36,10 +36,11 @@ body{
 .dropArrow img {
 	margin: auto;
 	text-align:center;
-	width: 5%;
-	height: auto;
-	opacity: 0.3;
+	width: 3%;
+	height: 2em;
+	opacity: 1;
 }
+
 
 .GalleryTitle {
 	display: inline-block;
