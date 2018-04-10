@@ -306,6 +306,10 @@ a:active, a:hover {
 
 }
 
+#footerlink a:hover{
+	color: grey;
+}
+
 
 
 
