@@ -9,7 +9,7 @@ body{
 }
 
 .item5 a{
-	border-bottom: 2px solid #A8A79F;
+	text-decoration: line-through;
 	padding-bottom: 6px;
 }
 
