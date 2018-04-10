@@ -50,9 +50,27 @@ text-decoration: line-through;
 	top: 90em;
 }
 .content {
-	left: 20%;
-	max-width: 60%;
+	/* left: 20%; */
+	/* max-width: 60%; */
 }
+}
+
+@media (max-width: 680px) {
+	.contactpic img {
+		width: 100%;
+		height: auto;
+	}
+	.contactpic {
+		width: 90%;
+		max-width: 90%;
+		margin-left: 5%;
+	}
+}
+
+@media (max-width: 518px) {
+	.container {
+		width: 50%;
+	}
 }
 
 @media (max-width: 490px) {

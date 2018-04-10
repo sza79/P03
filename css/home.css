@@ -206,6 +206,13 @@ top: 80em;
 	margin-right: auto;
 
 }
+.iat336_2{
+	height: 26vw;
+}
+
+.oslo2{
+	height: 26vw;
+}
 }
 
 @media (max-width: 650px) {
@@ -346,6 +353,14 @@ top: 80em;
     flex: 100%;
     max-width: 100%;
   }
+
+	.iat336_2{
+		height: 45vw;
+	}
+
+	.oslo2{
+		height: 45vw;
+	}
 }
 
 @keyframes Fly {
