@@ -10,19 +10,65 @@ body{
 
 
 .number{
-  font-size: 6em;
 	position: relative;
 	display: block;
 	position: relative;
-	margin-top: 1em;
+	margin-top: 10em;
 	margin-left: 5%;
 	max-width: 40%;
 	float: left;
 
 }
 
+.number01{
+	font-size: 6em;
+}
+
 .number02{
+font-size: 6em;
 margin-top: 3em;
+}
+
+.context01{
+	font-size: 1.4em;
+}
+
+.context02{
+	font-size: 1.4em;
+}
+
+.role01{
+		font-size: 1.4em;
+}
+
+.role02{
+		font-size: 1.4em;
+}
+
+.P01overview {
+	float: right;
+	width: 70%;
+	margin-right: 30%;
+}
+
+.P01overview img {
+		width: 100%;
+		height: auto;
+		filter: grayscale(100%);
+
+}
+
+
+.P02overview {
+	float: right;
+	width: 70%;
+	margin-right: 30%;
+}
+
+.P02overview img {
+		width: 100%;
+		height: auto;
+
 }
 
 .content {
@@ -32,7 +78,7 @@ margin-top: 3em;
 	position: relative;
 	float: left;
 	left: 15%;
-	top: 1em;
+	margin-top: 9em;
 
 
 }
@@ -121,8 +167,7 @@ height: 15em;
 } */
 
 .content {
-	left: 10%;
-	width: 80%;
+	width: 55%;
 }
 .newsBlock {
 height: 15em;
