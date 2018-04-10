@@ -24,25 +24,49 @@ body{
 	font-size: 6em;
 }
 
+.number01:hover a {
+	color: grey;
+}
+
 .number02{
 font-size: 6em;
 margin-top: 3em;
+}
+
+.number02:hover a{
+	color: grey;
 }
 
 .context01{
 	font-size: 1.4em;
 }
 
+.context01:hover a{
+	text-decoration: line-through;
+}
+
 .context02{
 	font-size: 1.4em;
+}
+
+.context02:hover a{
+	text-decoration: line-through;
 }
 
 .role01{
 		font-size: 1.4em;
 }
 
+.role01:hover a{
+	text-decoration: line-through;
+}
+
 .role02{
 		font-size: 1.4em;
+}
+
+.role02:hover a{
+	text-decoration: line-through;
 }
 
 .P01overview {
