@@ -78,7 +78,7 @@ float: right;
 .item5 a:hover {
 	/* text-decoration-line: underline; */
   /* text-decoration-style: wavy; */
-	border-bottom: 2px solid #999999;
+	text-decoration: line-through;
   text-decoration-color: black;
 }
 
