@@ -24,7 +24,6 @@
         Go to:
         <a class="button-nav" href="#interactive_elements">Interactive Elements</a>
         <a class="button-nav" href="#text_elements">Text Elements</a>
-        <a class="button-nav" href="#combined_elements">Combined Elements</a>
         <a class="button-nav" href="Homepage.html">Porfolio Homepage</a>
         <a class="button-nav" href="citation.html">Citation Page</a><br><br>
         </p>
@@ -43,62 +42,21 @@
         <!-- <p class="description">Navigation buttons are easy to spot as they are very high in the visual hierarchy, they occupy a large portion of the site space on top. Therefore, with the feedback we got from website auditing, we decided to lower its font-weight and size to prevent it becoming a visual distrction. The hover effect is decorated with a custom underline done by using border-bottom and padding-bottom.</p> -->
 
         <h3>CSS selector:</h3>
-        <p>.button-nav</p>
+        <p>.container, .item1, .item3, .item5</p>
 
         <h3>Sample code:</h3>
-        <code>&lt;a href="Homepage.html" class="button"&gt;Navigation Button&lt;/a&gt;</code>
+        <code>&lt;a href="Homepage.html" class=".item1"&gt;Navigation Button&lt;/a&gt;</code>
 
         <h3>Rendered element:</h3>
         <a href="Homepage.html" class="button-nav">Nav Button</a>
 
       </section>
 
-      <section>
-        <h2>In-text link</h2>
-        <p class="description">In-text links are differenciated from usual paragraphs by size and font-weightd difference. When hovered, it also presents a subtle shade of grey change.</p>
-
-        <h3>CSS selector:</h3>
-        <p>.in-text-link</p>
-
-        <h3>Sample code:</h3>
-        <code>&lt;strong&gt;&lt;a href="#" class="link"&gt;Default link&lt;/a&gt;&lt;/strong&gt;</code>
-
-        <h3>Rendered element:</h3>
-        <strong><a href="Homepage.html" class="in-text-link">In-text-Link</a></strong>
-      </section>
-
-      <section>
-        <h2>Submit/Reset Buttons</h2>
-        <p class="description">The use of the submit/reset buttons are mostly for customers to proceed through the purchasing process. We decided to use comparatively lower visual weight styling for the buttons so that customers can feel formal and safe when purchasing products. It also has the hover effects of grey out font and border colour.</p>
 
 
-        <h3>CSS selector:</h3>
-        <p>.button</p>
 
-        <h3>Sample code:</h3>
-        <code>&lt;a href="Homepage.html" class="button"&gt;Submit&lt;/a&gt;</code>
 
-        <h3>Rendered element:</h3>
-        <a href="Homepage.html" class="button">Submit</a>
-      </section>
 
-      <section>
-        <h2>Text Input Field</h2>
-
-        <h3>CSS selector:</h3>
-        <p>input [type=text]</p>
-
-        <h3>Sample code:</h3>
-        <code>&lt;input type="text" class="textField" name="firstname"&gt;</code>
-
-        <h3>Rendered element:</h3>
-        <form>
-            <p>First name:</p>
-            <input type="text" class="textField" name="firstname">
-            <p>Last name:</p>
-            <input type="text" class="textField" name="lastname">
-          </form>
-      </section>
 
     </section>
     <!-- // INTERACTIVE ELEMENTS SECTION -->
@@ -135,174 +93,35 @@
         <p>p</p>
 
         <h3>Sample code:</h3>
-        <code>&lt;p&gt;Blah&lt;/p&gt;</code>
+        <code>&lt;p&gt;This is a game design project developed by 4 group members in IAT 410 within 3 one semester. It’s a 3D adventure game that contains 3 levels.  The concept of the game is to play as a giant monster made of hybrid animal genes and destroy cities across the world. Players enter a lab to create these monsters by combining two genes from 5 possible animals. They will then choose a city from the world map to play in, and work toward completing the level by destroying the city’s main monuments before time runs out.&lt;/p&gt;</code>
 
         <h3>Rendered element:</h3>
         <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
       </section>
 
-      <section>
-        <h2>Bulleted Lists</h2>
 
-                <h3>CSS selector:</h3>
-                <p>ul</p>
 
-                <h3>Sample code:</h3>
-                <code>&lt;ul&gt;<br>
-                  &lt;li&gt;element1&lt;/li&gt;<br>
-                  &lt;li&gt;element2&lt;/li&gt;<br>
-                  &lt;li&gt;element3&lt;/li&gt;<br>
-                  &lt;/ul&gt;</code>
-
-                <h3>Rendered element:</h3>
-                <ul style="list-style-type:disc">
-                  <li>Element 1</li>
-                  <li>Element 2</li>
-                  <li>Element 3</li>
-                </ul>
-
-      </section>
-
-      <section>
-        <h2>Numbered Lists</h2>
-
-        <h3>CSS selector:</h3>
-        <p>ol</p>
-
-        <h3>Sample code:</h3>
-        <code>&lt;ol&gt;<br>
-          &lt;li&gt;element1&lt;/li&gt;<br>
-          &lt;li&gt;element2&lt;/li&gt;<br>
-          &lt;li&gt;element3&lt;/li&gt;<br>
-          &lt;/ol&gt;</code>
-
-        <h3>Rendered element:</h3>
-        <ol style="1">
-          <li>Element 1</li>
-          <li>Element 2</li>
-          <li>Element 3</li>
-        </ol>
-      </section>
 
     </section>
     <!-- // TEXT ELEMENTS SECTION -->
 
 
 
-    <!-- COMBINED ELEMENTS SECTION // -->
-    <section id="combined_elements">
-
-      <section>
-        <h2>Main Navigation</h2>
-
-        <h3>CSS selector:</h3>
-        <p>.button-nav</p>
-
-        <h3>Sample code:</h3>
-        <code>&lt;a class="button-nav"&gt;Nav Elements&lt;/a&gt;</code>
-
-        <h3>Rendered element:</h3>
-        <a class="button-nav">Nav Element 1</a>
-        <a class="button-nav">Nav Element 2</a>
-        <a class="button-nav">Nav Element 3</a>
-
-      </section>
-
-      <!-- <section> -->
-        <!-- <h2>Product Listing</h2>
-
-        <h3>CSS selectors:</h3>
-        <p>p h3 img .productList .product1 .product2 .product3</p>
-
-        <h3>Sample code:</h3>
-        <code>  &lt;div class=&quot;productList&quot;&gt;<br>
 
 
-                &lt;a href=&quot;ProductDetail.html&quot; class=&quot;product1&quot;&gt;<br>
-                  &lt;div&gt;<br>
-                    &lt;!-- Swedish for Leg Bed --&gt;<br>
-                  &lt;h3 class=&quot;chair1Button&quot;&gt;Rumpa Sängen&lt;/h3&gt;<br>
-                  &lt;p&gt;From Maruni’s 2016 collection, the Rumpa Sängen are simple, light, and playful. Designed by English designer Jasper Morrison. &lt;/p&gt;<br>
-                  &lt;p&gt;$2645.00 CAD&lt;/p&gt;<br>
-                    &lt;/div&gt;<br>
-                &lt;/a&gt;<br>
-
-
-                &lt;a href=&quot;ProductDetail.html&quot; class=&quot;product2&quot;&gt;<br>
-                  &lt;div&gt;<br>
-                    &lt;!-- Swedish for Waist Ground --&gt;<br>
-                   &lt;h3 class=&quot;chair2Button&quot;&gt;Midja Marken&lt;/h3&gt;<br>
-                   &lt;p&gt;A counter stool designed in 1935 by one of the world&#x27;s most prominent architects - Alvar Aalto.&lt;/p&gt;<br>
-                   &lt;p&gt;$4520.00 CAD&lt;/p&gt;<br>
-                 &lt;/div&gt;<br>
-               &lt;/a&gt;<br>
-
-               &lt;a href=&quot;ProductDetail.html&quot; class=&quot;product3&quot;&gt;<br>
-                  &lt;div&gt;<br>
-                    &lt;!-- Swedish for Neck Protection --&gt;<br>
-                  &lt;h3 class=&quot;chair3Button&quot;&gt;Nackskydd&lt;/h3&gt;<br>
-                  &lt;p&gt;The Adam Stool collection is inspired by industrial design, an artist&#x27;s studio, and a workshop. &lt;/p&gt;<br>
-                  &lt;p&gt;$3020.00 CAD&lt;/p&gt;<br>
-                &lt;/div&gt;<br>
-              &lt;/a&gt;<br>
-
-            &lt;/div&gt;</code> -->
-
-        <!-- <h3>Rendered element:</h3> -->
-
-          <!-- <img src="images/home/u81.png" alt="Placeholder Image"><br>
-          <h3>Home Made Hand Made Potato from our sink</h3>
-          <p id="paragraphsample">The potato is fresh, chemically friendly, user friendly, I love eating them. You will too. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          </p>
-          <h3 id="price">CND $280.49 </h3> -->
-          <!-- <div class="productList">
-
-
-                <a href="ProductDetail.html" class="product1">
-                  <div>
-                    <!-- Swedish for Leg Bed -->
-                  <!-- <h3 class="chair1Button">Rumpa Sängen</h3>
-                  <p>From Maruni’s 2016 collection, the Rumpa Sängen are simple, light, and playful. Designed by English designer Jasper Morrison. </p>
-                  <p>$2645.00 CAD</p>
-                    </div>
-                </a>
-
-
-                <a href="ProductDetail.html" class="product2">
-                  <div>
-                    <!-- Swedish for Waist Ground -->
-                   <!-- <h3 class="chair2Button">Midja Marken</h3>
-                   <p>A counter stool designed in 1935 by one of the world's most prominent architects - Alvar Aalto.</p>
-                   <p>$4520.00 CAD</p>
-                 </div>
-               </a>
-
-               <a href="ProductDetail.html" class="product3">
-                  <div>
-                    <!-- Swedish for Neck Protection -->
-                  <!-- <h3 class="chair3Button">Nackskydd</h3>
-                  <p>The Adam Stool collection is inspired by industrial design, an artist's studio, and a workshop. </p>
-                  <p>$3020.00 CAD</p>
-                </div>
-              </a>
-
-            </div> -->
-
-
-
-      <!-- </section> -->
 
       <section>
         <h2>Font Family</h2>
+        <h3>Roboto Mono</h3>
         <figure>
-                  <img src="img/nanumGothic.PNG" alt="Image Not Available">
+                  <img src="img/FontImage.png" alt="Image Not Available">
                 </figure>
       </section>
 
       <section>
         <h2>Colour Scheme</h2>
         <figure>
-                  <img src="img/color palette.png" alt="Image Not Available">
+                  <img src="img/ColorScheme.png" alt="Image Not Available" width="1000px">
                 </figure>
       </section>
 
